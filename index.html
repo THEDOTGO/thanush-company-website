@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>DotGo</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+   </head>
+   <body>
+
+<style type="text/css">
+.pad {
+  padding: 0px;
+}
+.header-logo {
+  width: 15%;
+}
+.banner-sec{
+  padding-top: 115px; 
+  margin-left: 100px;
+  text-align: left;
+}
+.banner-sec-pad {
+  padding-bottom: 200px;
+}
+.temp-gal-heading-sec {
+  margin-left: 120px; 
+  margin-right: 120px;
+  text-align: center;
+}
+.heading-line-temp {
+  width: 70px;
+  height: 3px;
+  background-color: #fed547;
+  border-color: #fed547;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features-sec {
+  background-color: #eee; 
+  padding-top: 100px; 
+  padding-bottom: 100px;
+}
+.features-sec-mrl {
+  margin-left: 120px; 
+  margin-right: 120px;
+  text-align: center;
+}
+.headings {
+  text-align: center; 
+  font-size: 55px;
+}
+.features-left-mt {
+  text-align: right; 
+  margin-top: 150px;
+}
+.features-right-mt {
+  text-align: right; 
+  margin-top: 150px;
+}
+.why {
+  font-size: 55px; 
+  margin-bottom: 80px;
+  text-align: left;
+}
+.why-dotgo {
+  border-bottom: 3px solid #fed547;
+}
+.launch-business {
+  text-align: center;
+  font-size: 60px;
+}
+.four-simple {
+  font-weight: 600; 
+  font-size: 20px; 
+  border-bottom: 3px solid #fed547;
+}
+.business-launch-list {
+  margin-left: 150px; 
+  margin-right: 150px; 
+  line-height: 2.6; 
+  font-size: 18px;
+} 
+.growing-business {
+  text-align: center; 
+  font-size: 60px;
+} 
+
+@media only screen and (max-width: 768px) {
+  .pad {
+    padding: 25px;
+  }
+  .header-logo {
+    width: 30%;
+  }
+  .banner-sec {
+    padding-top: 50px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .main-title {
+    font-size: 32px;
+    margin: 0;
+  }
+  .heading-line-home {
+    width: 70px;
+    height: 3px;
+    background-color: #fed547;
+    border-color: #fed547;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .banner-sec-pad {
+    padding-bottom: 100px;
+  }
+  .temp-gal-heading-sec {
+    margin-left: unset; 
+    margin-right: unset;
+    text-align: center;
+  }
+  .heading-line-temp {
+    width: 70px;
+    height: 3px;
+    background-color: #fed547;
+    border-color: #fed547;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .features-sec {
+    background-color: #eee; 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+  }
+  .features-sec-mrl {
+    margin-left: unset;
+    margin-right: unset;
+    text-align: center;
+  }
+  .headings {
+    text-align: center; 
+    font-size: 32px;
+  }
+  .features-right-mt {
+    text-align: right; 
+    margin-top: 150px;
+  }
+  .why {
+    font-size: 35px; 
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .why-dotgo {
+    border-bottom: 3px solid #fed547;
+  }
+  .launch-business {
+    text-align: center;
+    font-size: 35px;
+  }
+  .four-simple {
+    font-weight: 600; 
+    font-size: 20px; 
+    border-bottom: 3px solid #fed547;
+  }
+  .business-launch-list {
+    margin-left: 20px; 
+    margin-right: 20px; 
+    line-height: 2.6; 
+    font-size: 18px;
+  }
+  .growing-business {
+    text-align: center; 
+    font-size: 35px;
+  }
+}
+</style>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light pad">
+        
+        <div class="container">
+
+          <img src="images/dotgo-logo.png" class="header-logo">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Themes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="login-btn">Login</a>
+              </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+          </div>
+
+        </div>
+      </nav>
+
+
+      <div class="background">
+         <div class="container banner-sec-pad">
+            <div class="row">
+               <div class="banner-sec">
+                  <span class="secondary-title">DOTGo</span>
+                  <div class="heading-line-home"></div>
+                  <h1 class="main-title">Everything you need to promote and grow your business online</h1>
+                  <p class="banner-text">We have online solutions to easily customise and manage all your business requirements. Now you can easily ensure your business edge, in the ever-changing digital world.</p>
+                  <a href="#" class="get-started-btn">Get Started</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="container section">
+         <div class="temp-gal-heading-sec">
+            <span class="secondary-title">TEMPLATES</span>
+            <div class="heading-line-temp"></div>
+            <h1 class="headings">Assert your online presence</h1>
+            <p class="heading-text">Bring your business ideas to life with a custom made website, or easily build your own high-quality website, from pre-made design templates of your choice.</p>
+            <p class="heading-text">Choose from <span style="font-weight: 600; font-size: 20px;">100+</span> customizable design templates.</p>
+         </div>
+         <div>
+            <a href=""><img src="images/theme-image-2.png" class="img-hvr1 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-1.png" class="img-hvr2 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-6.png" class="img-hvr3 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-5.png" class="img-hvr4 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-3.png" class="img-hvr6 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-4.png" class="img-hvr5 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-8.png" class="img-hvr7 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+            <a href=""><img src="images/theme-image-7.png" class="img-hvr8 inline-photo show-on-scroll" data-aos="fade-down"> </a>
+         </div>
+      </div>
+      <div class="container" style="padding-top: 100px; padding-bottom: 50px;">
+         <div class="row">
+            <a href="#" class="see-all-theme-btn">View All</a>
+         </div>
+      </div>
+
+      <div class="features-sec">
+        <div class="container">
+          <div class="features-sec-mrl">
+            <span class="secondary-title">FEATURES</span>
+            <div class="heading-line-home"></div>
+              <h1 class="headings">Grow your business online easily</h1>
+              <p class="heading-text">With DOTGo, you have all the tools needed to manage your online presence, without any technical knowledge.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3">
+
+              <div class="features-left-mt">
+                <h5>WEBSITE BUILDER</h5>
+                <p>Drag & Drop website builder to create your own custom website.</p>
+              </div>
+
+              <div class="features-left-mt">
+                <h5>HTML/CSS/JS EDITOR</h5>
+                <p>The option to edit and fully customize everything you need.</p>
+              </div>
+
+              <div class="features-left-mt">
+                <h5>UNIQUE FONTS</h5>
+                <p>Showcase your brand personality with stylish special fonts.</p>
+              </div>
+
+            </div>
+            <div class="col-sm-6">
+              <img src="assets/images//devices-image.png" style="width: 100%; margin-top: 250px;">
+            </div>
+            <div class="col-sm-3">
+              
+              <div class="features-right-mt">
+                <h5>VIDEO & AUDIO</h5>
+                <p>Include HD video content or give dynamic video backgrounds.</p>
+              </div>
+
+              <div class="features-right-mt">
+                <h5>IMAGE EDITING</h5>
+                <p>Enhance your photos with the built-in professional tool.</p>
+              </div>
+
+              <div class="features-right-mt">
+                <h5>DATA ANALYTICS</h5>
+                <p>Keep track and make smart decisions to improve your business.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 100px;">
+            <div class="col-sm-4">
+              <div style="text-align: center; margin-top: 50px;">
+                <img src="assets/images/icon-hosting.png" style="width: 20%; margin-top: 15px; margin-bottom: 15px;">
+                <h5>HOSTING</h5>
+                <p>Scalable website hosting that is blazing fast and exceptionally reliable, to keep pace with your expanding business.</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div style="text-align: center; margin-top: 50px;">
+                <img src="assets/images/icon-security.png" style="width: 20%; margin-top: 15px; margin-bottom: 15px;">
+                <h5>SECURITY</h5>
+                <p>World-class security with SSL certificates, DDoS Mitigation, and dedicated support to keep your site safe and secure.</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div style="text-align: center; margin-top: 50px;">
+                <img src="assets/images/icon-management.png" style="width: 20%; margin-top: 15px; margin-bottom: 15px;">
+                <h5>MANAGEMENT</h5>
+                <p>Manage your website, online assets, and keep everything up to date, all in one place using your DOTGo dashboard.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5">
+              
+            </div>
+            <div class="col-sm-7">
+              <div>
+                <h1 class="why">Why <span class="why-dotgo">DOTGo?</span></h1>
+                <p style="line-height: 1.9; font-size: 18px;">If you are a small or medium-sized enterprise in India, aspiring to promote and grow your business online, we’ve got you covered.</p>
+                <p style="line-height: 1.9; font-size: 18px;">Create a website with the DOTGo website builder or choose from over 100 designer-made templates that you can fully customize. Then use the built-in professional tools to promote and manage your business — generate leads and drive conversions with digital marketing, social media engagements, and customer management tools. Efficiently manage your business workflow with powerful scheduling and inventory tools. Also, let your clients book appointments or services, and pay online.</p>
+                <p style="line-height: 1.9; font-size: 18px;">DOTGo is a complete online business solution, that helps you do all this easily, in one place. And the best part is, you need to pay only for the tools you use. This ensures the optimum use of your resources and provides maximum value for you. Avail of our free trial option, to check out what works best for you.</p>
+              </div>
+              <div style="margin-top: 80px;">
+                  <a href="#" class="why-get-started-btn">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: #eee; padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+          <div style="margin-bottom: 50px;">
+              <h1 class="launch-business">How to launch your business website?</h1>
+              <p class="heading-text">Follow these <span class="four-simple">4 simple</span> steps to get started today.</p>
+          </div>
+          <div class="row">
+            <div class="business-launch-list">
+                <p><b>1.</b> Sign up for free, and choose what kind of website you want to create.</p>
+
+                <p><b>2.</b> Select your starting point. Pick out a pre-designed template, or get a website made for you.</p>
+
+                <p><b>3.</b> Customize your website with 100s of design features. Change the colours and fonts to fit your brand. And add your own text, photos, and videos.</p>
+
+                <p><b>4.</b> Launch your website, and start building and growing your business.</p>
+
+                <div style="margin-top: 80px; text-align: center;">
+                    <a href="#" class="get-started-btn">Get Started</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <div>
+                <h1 style="font-size: 55px; margin-bottom: 80px;">FAQ</h1>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">1. What all do I get on the website?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">You'll get a landing page with 5 sections, along with social media and WhatsApp integrations.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">2. How many times can the website be edited?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">You can edit your website unlimited times.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">3. How many images can be added to my website?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">You can add 10 to 12 images to your website.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">4. How many videos can be added to my website?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">You can add 1 video to your website.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">5. What is DOTGo free domain & hosting?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">We provide you free www.YourWebsiteName.dotgo.xyz domain, and free cloud hosting.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">6. Can an existing domain & hosting be integrated with DOTGo?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">Yes, your existing domain can be integrated with DOTGo. But not the hosting.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">7. Is the cost of the business tools extra?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">Yes, the business tools are available as individual plug-ins that are charged item-by-item.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">8. How many business tools can I add to the existing plan?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">You can add 8 to 12 business tools (plug-ins) with the E-commerce plan.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">9. Are there any hidden charges after 1 year?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">There is a yearly recurring charge only for the domain renewal and basic hosting.</p>
+                </div>
+                <div style="margin-top: 30px;">
+                  <p style="line-height: 1; font-size: 18px; font-weight: 600;">10. If I am unsatisfied with the website what can I do?</p>
+                  <p style="line-height: 1.9; font-size: 18px;">You need to pay only after you are fully satisfied.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: #eee; padding-top: 100px; padding-bottom: 100px;">
+        <div class="container">
+          <div style="margin-bottom: 50px;">
+              <h1 class="growing-business">Start growing your business today</h1>
+              <p class="heading-text">Get started now, to stay ahead of your competition.</p>
+          </div>
+          <div class="row">
+              <div class="col-sm-3"></div>
+              <div class="col-sm-6">
+                <div style="text-align: center;">
+                
+                    <h4><b>Just drop us a message</b></h4>
+
+                    <form>
+                      <div class="form-group">
+                        <input type="text" name="" class="form-control" placeholder="Your Name">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="" class="form-control" placeholder="youreamil@example.com">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                      </div>
+                    </form>
+
+                    <div style="margin-top: 80px; text-align: center;">
+                        <a href="#" class="get-started-btn">Send</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-sm-3"></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color: #131e29; padding-top: 100px; padding-bottom: 50px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <h4 style="color: #fff; margin: 0;">DOTGo</h4>
+              <div class="footer-logo-line"></div>
+              <p style="color: #bfbfbf;">DOTGo is an integrated business solution for small and medium-sized enterprises. We make it easy for you to promote and grow your business online. Get started now, to get an edge over your competition.</p>
+              <p style="color: #bfbfbf;">Our features are built as per the custom requirements of different industry segments. Be it a professional website for your business, or tools to efficiently and effectively manage your business operations, we have it covered.</p>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4">
+              <div style="margin-top: 45px;">
+                <p style="color: #bfbfbf;">B-HUB<br>
+                Mar Ivanios Vidya Nagar<br>
+                Nalanchira - 695 015<br>
+                Thiruvananthapuram</p>
+                <a href="tel:+919074676331" style="font-size: 22px; color: #fff;">+91 - 90746 76331</a><br>
+                <a href="tel:+918075953133" style="font-size: 22px; color: #fff;">+91 - 80759 53133</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div style="margin-left: auto; margin-right: auto; padding-top: 80px;">
+              <span style="padding: 20px; font-size: 30px;"><a href="#" style="color: #bfbfbf;"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+              <span style="padding: 20px; font-size: 30px;"><a href="#" style="color: #bfbfbf;"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+              <span style="padding: 20px; font-size: 30px;"><a href="#" style="color: #bfbfbf;"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+              <span style="padding: 20px; font-size: 30px;"><a href="#" style="color: #bfbfbf;"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+            </div>
+          </div>
+
+          <div style="text-align: center; padding-top: 50px;">
+            <p style="color: #bfbfbf;">Copyright © 2021 DOTGo. All Rights Reserved ● <a href="#" style="color: #bfbfbf;">Privacy Policy</a></p>
+          </div>
+
+        </div>
+      </div>
+
+
+   </body>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+   // Detect request animation frame
+   var scroll = window.requestAnimationFrame ||
+                // IE Fallback
+                function(callback){ window.setTimeout(callback, 1000/60)};
+   var elementsToShow = document.querySelectorAll('.show-on-scroll'); 
+   
+   function loop() {
+   
+       Array.prototype.forEach.call(elementsToShow, function(element){
+         if (isElementInViewport(element)) {
+           element.classList.add('is-visible');
+         } else {
+           element.classList.remove('is-visible');
+         }
+       });
+   
+       scroll(loop);
+   }
+   
+   // Call the loop for the first time
+   loop();
+   
+   // Helper function from: http://stackoverflow.com/a/7557433/274826
+   function isElementInViewport(el) {
+     // special bonus for those using jQuery
+     if (typeof jQuery === "function" && el instanceof jQuery) {
+       el = el[0];
+     }
+     var rect = el.getBoundingClientRect();
+     return (
+       (rect.top <= 0
+         && rect.bottom >= 0)
+       ||
+       (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+         rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+       ||
+       (rect.top >= 0 &&
+         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+     );
+   }
+</script>
+</html>
